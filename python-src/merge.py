@@ -21,13 +21,4 @@ def mergeSort(A):
 def sort(A):
     result=mergeSort(A)
     return result
-    # print(A.compares)
-    # print(test)
-
-    # Do quicksort here. Use the Sorter's comparison- and swap
-    # methods for automatically counting the swaps and comparisons.
-
-    # Use A.swap(i, j) to swap the values at two indices i and j. The swap is
-    # counted, when using this method. Comparisons are counted automatically.
-
 

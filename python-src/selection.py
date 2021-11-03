@@ -16,6 +16,3 @@ def selectionSort(A):
 def sort(A):
     selectionSort(A)
     return A
-
-
-
