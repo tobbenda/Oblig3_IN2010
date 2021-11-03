@@ -19,7 +19,8 @@ def mergeSort(A):
     return newArr
 
 def sort(A):
-    test = mergeSort(A)
+    result=mergeSort(A)
+    return result
     # print(A.compares)
     # print(test)
 
@@ -29,4 +30,4 @@ def sort(A):
     # Use A.swap(i, j) to swap the values at two indices i and j. The swap is
     # counted, when using this method. Comparisons are counted automatically.
 
-    return A
+

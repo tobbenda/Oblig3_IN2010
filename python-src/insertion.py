@@ -14,7 +14,8 @@ def insertionSort(A):
     
 
 def sort(A):
-    test = insertionSort(A)
+    result = insertionSort(A)
+    return result
 
     # Do insertion sort here. Use the Sorter's comparison- and swap
     # methods for automatically counting the swaps and comparisons.

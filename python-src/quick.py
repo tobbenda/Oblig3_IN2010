@@ -33,7 +33,7 @@ def quickSortInPlace(A, low=0, high = None):
 
 def sort(A):
     # test = quickSort(A)
-    test = quickSortInPlace(A)
+    quickSortInPlace(A)
     # print(test)
 
     # Do quicksort here. Use the Sorter's comparison- and swap
